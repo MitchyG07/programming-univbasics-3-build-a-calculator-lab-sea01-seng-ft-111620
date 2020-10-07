@@ -23,10 +23,14 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-
+  mol_answer = num1 % num2
+  puts mol_answer
+  return mol_answer
 end
 
 def square_root(num)
-
+  sq_answer = math.sqrt(num)
+  puts sq_answer 
+  return sq_answer 
 end
 
