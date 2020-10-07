@@ -17,7 +17,9 @@ def division(num1, num2)
 end
 
 def multiplication(num1, num2)
-
+  mul_answer = num1 * num2
+  puts mul_answer 
+  return mul_answer
 end
 
 def modulo(num1, num2)
@@ -28,4 +30,3 @@ def square_root(num)
 
 end
 
-subtraction(1, 3)
